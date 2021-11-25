@@ -1,0 +1,35 @@
+.Button1 {
+    --button-height: 36px;
+    --button-horizontal-padding: 8px;
+    --button-contained-horizontal-padding: 16px;
+    --button-height-dense: 32px;
+    --button-outlined-border-width: 1px;
+  
+    /* Typography */
+    font-size: 0.875rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+    text-decoration: solid;
+    text-decoration: none;
+    color: #101010;
+  
+    padding: 0 var(--button-horizontal-padding);
+    background-color: rgba(0, 0, 0, 0);
+  
+    /* Display */
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    height: var(--button-height);
+    border: none;
+    outline: none;
+  
+    /* alternate */
+    line-height: inherit;
+    user-select: none;
+    appearance: none;
+    overflow: hidden;
+    vertical-align: middle;
+  }

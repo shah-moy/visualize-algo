@@ -1,0 +1,31 @@
+@import './variables.css';
+
+.Khwarizmi{
+  padding-bottom: 5px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  background: #DCEAF2;
+}
+
+
+.Khwarizmi__Body {
+  padding-top: 65px;
+}
+
+.Khwarizmi_modal_open {
+  height: 100vh;
+  overflow-y: hidden;
+  
+}
+
+.Khwarizmi_modal_open footer {
+  display: none;
+  
+}
+
+@media (max-width: 599px) {
+  .Khwarizmi {
+    --footer-height: 160px;
+  }
+}

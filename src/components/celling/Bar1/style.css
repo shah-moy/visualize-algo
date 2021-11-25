@@ -1,0 +1,33 @@
+.Bar1 {
+  background-color: var(--white);
+  color: #101010;
+  display: flex;
+  flex-direction: column reverse;
+  align-items: flex-end;
+  transition: 125ms ease-in-out;
+  font-size: 20px;
+}
+
+.Bar__Text {
+  margin: 1 auto 0.25rem;
+}
+/* primary sorter */
+.Bar_sorted {
+  background-color: var(--primary);
+}
+/*for Less than pivot*/
+.Bar_stateD {
+  background-color: var(--blue);
+}
+/* red for Overwrite from memory*/
+.Bar_stateC {
+  background-color: var(--red);
+}
+/* secondary for swap*/
+.Bar_stateB {
+  background-color: var(--secondary);
+}
+/*amber for compare*/
+.Bar_stateA {
+  background-color: var(--amber);
+}

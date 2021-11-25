@@ -1,0 +1,117 @@
+
+@media (min-width: 1200px) {
+
+  .SortChart {
+    /* min-width: 320px; */
+    /* max-width: 960px; */
+    min-height: 218px;
+    height: 45vh;
+    padding: 1rem;
+  
+    background-color: #E4F2F7;
+  
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    transition: 0.75s ease-in-out;
+  }
+  .SortChartL {
+    min-width: 70%; 
+    max-width: 100%;
+    
+    height: 38vh;
+    padding: 1rem;
+  
+    background-color: #E4F2F7;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    transition: 0.75s ease-in-out;
+  }
+  .SortChartR {
+     min-width: 420px; 
+     max-width: 500px; 
+    min-height: 218px;
+    height: 37.99vh;
+    font-weight: bolder;
+    background-color: #F7F7F7;
+    padding-left: 55px;
+   font-size: 3.3mm;
+   padding-top: 10px;
+  }
+}
+    
+  .Bar__Text {
+    margin: 0 auto 0.25rem;
+  }
+  /* primary sorter */
+  .Bar_sorted {
+    
+    background-color: var(--primary);
+  
+  }
+  /*for Less than pivot*/
+  .Bar_stateD {
+    background-color: var(--blue);
+  }
+  /* red for Overwrite from memory*/
+  .Bar_stateC {
+    background-color: var(--red);
+  }
+  /* secondary for swap*/
+  .Bar_stateB {
+    background-color: var(--secondary);
+    padding :10px;
+  }
+  /*amber for compare*/
+  .Bar_stateA {
+    background-color: var(--amber);
+    padding: 10px;
+  }
+  .Bar_default{
+    background-color: var(--white);
+  
+  }
+  
+  .P__Text {
+    margin: 0 auto 0.2rem;
+  }
+  /* primary sorter */
+  .P_sorted {
+    
+    background-color: var(--primary);
+    color: white;
+  
+  }
+  /*for Less than pivot*/
+  .P_stateD {
+    background-color: var(--blue);
+    color: white;
+  }
+  /* red for Overwrite from memory*/
+  .P_stateC {
+    background-color: var(--red);
+    color: white;
+  }
+  /* secondary for swap*/
+  .P_stateB {
+    background-color: var(--secondary);
+    color: white;
+    
+  }
+  /*amber for compare*/
+  .P_stateA {
+    background-color: var(--amber);
+    color: white;
+    
+  }
+  .P_default{
+    background-color: #E4F2F7;
+  
+  }
+  
+  
+  
+  

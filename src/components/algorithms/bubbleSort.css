@@ -1,0 +1,9 @@
+.Pseudo{
+
+      background-color: var(--white);
+        color: #101010;
+        display: flex;
+        flex-direction: column reverse;
+        align-items: flex-end;
+        transition: 125ms ease-in-out;
+      }

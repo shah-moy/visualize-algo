@@ -1,0 +1,30 @@
+.SortChart1 {
+  min-width: 10%;
+  max-width: 100%; 
+  min-height: 1px;
+  height: 8vh;
+  padding: 1rem;
+  padding-left: 15%;
+  padding: auto;
+  
+  margin-left: auto;
+ 
+  background-color: var(--blue);
+
+  display:flex;
+  initial-letter-align: center;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+ 
+  -ms-flex-align: center;
+  flex: inherit;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  transition: 0.75s ease-in-out;
+}
+.stext{margin: 1 auto 0.25rem;
+
+}

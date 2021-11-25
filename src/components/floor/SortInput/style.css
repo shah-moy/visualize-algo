@@ -1,0 +1,32 @@
+.SortInput {
+    text-align: left;
+    width: 80%;
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  .SortInput__Body {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .SortInput__Aside {
+      padding-left: 2ch;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .SortInput__Article {
+      width: 55ch;
+      padding-right: 5ch;
+    }
+  
+    .SortInput__Aside {
+      padding-left: 5ch;
+      border-left: 1px solid var(--text-color);
+    }
+  }

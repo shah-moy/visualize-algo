@@ -1,0 +1,10 @@
+.Sd{
+    background-color: var(--white);
+    color: #101010;
+    padding-left: inherit;
+    
+    display: flex;
+    flex-direction: row reverse;
+    align-items: flex-end;
+    transition: 125ms ease-in-out;
+}
