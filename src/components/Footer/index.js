@@ -41,9 +41,9 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                        Al-Khwarizmi
+                        VisualizeAlgo
                         </SocialLogo>
-                        <WebsiteRights>Al-Khwarizmi © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                        <WebsiteRights>VisualizeAlgo © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
                         <SocialIconLink href="/" target="_blank"
                             aria-label="Facebook">
