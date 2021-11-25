@@ -16,7 +16,7 @@ const TopBar = ({ drawerOpen, toggleDrawer, children }) => {
             iconClass="TopBar__Icon"
             onClick={toggleDrawer}
           />
-          <Icon to="/">Algorithm Visualization</Icon>
+          <Icon to="/">VisualizeAlgo</Icon>
          
         </section>
         <section className="TopBar__Section TopBar__Section_align_end">
