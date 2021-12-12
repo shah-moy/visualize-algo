@@ -88,7 +88,7 @@ export const BubbleSortP= {
     l5:(<span Style="margin: 30px"><line>end if</line></span>),
   l6:(<span Style="margin: 30px"><line>end inner for</line></span>),
  l7:(<span Style="margin: 15px"><line> end outer for</line></span>),
- l8:(<span Style="margin: 0px"><line>end BubbleSort</line></span>),
+ //l8:(<span Style="margin: 0px"><line>end BubbleSort</line></span>),
  l9:(<span Style="margin: 0px"><line></line></span>),
  
 };

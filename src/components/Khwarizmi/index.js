@@ -128,15 +128,20 @@ class Khwarizmi extends Component {
   };
 
   deletewholeArray = (array) => {
-    while(array){
-    array.pop();}
-    this.setState(
-      {
-        array:[],
-        trace: []
-      },
-      this.createTrace
-    );
+    const ssa=this.state.arraySize;
+    while(ssa-1){
+      this.state.array.pop();
+      this.setState(
+        {
+          array:[...this.state.array],
+          trace: []
+        },
+        this.createTrace
+      );
+   }
+  
+   
+  
   };
 
   deleteArray = (array) => {
@@ -157,11 +162,15 @@ class Khwarizmi extends Component {
     /*console.log(array.join()); 
 array.splice(d, 0, c);
 console.log(array.join());*/
-
+while(d)
+{
+  array.pop();
+}
 //array.insert(d,c);
 
 //just to avoid error
 this.state.array.push(c);
+
     this.setState(
       {
         array:[...this.state.array],

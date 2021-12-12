@@ -26,8 +26,7 @@ const Controls = ({
             'Selection Sort',
             'Insertion Sort',
             'Merge Sort',
-            'Quick Sort',
-            'Heap Sort'
+            'Quick Sort'
           ]}
           selected={algorithm}
           onSelect={onAlgorithmChange}
@@ -37,20 +36,16 @@ const Controls = ({
           <span>Size</span>
           <Menu
             placeholder="Array Size"
-            items={['5', '10', '25', '50', '75', '100']}
+            items={['5', '10', '15', '20', '25']}
             selected={String(arraySize)}
             onSelect={onArraySizeChange}
           />
-        </div>
-
-        <Button1 onClick={insertwithIndex}>insertwithIndex
-
-      </Button1> <input id="array2" type="text" Style="width:50px;height:25px"></input><input id ="index" type="text"Style="width:50px;height:25px "></input>
-      
-      <Button1 onClick={deletewholeArray}>Delete_array</Button1>
-      
+        </div > 
+         
+     <div>
+      <input id="array" type="text" Style="width:50px;height:25px " padding-left="5px"></input> 
       <Button1 onClick={insertArray}>Insert
-      </Button1> <input id="array" type="text" Style="width:50px;height:25px "></input>
+      </Button1> </div>
       
       <Button1 onClick={deleteArray}>Delete</Button1>
       <Button1 onClick={onGenerateRandomArray}>Randomize</Button1>

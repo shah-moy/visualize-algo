@@ -23,7 +23,7 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'About Al-Khwarizmi',
+    topLine: 'About Visualize-Algo',
     headline: 'The main objective of this site',
     description:
     'This algorithm simulator is designed to teach students about data structures through visualization, allowing them to test their understanding of basic data structures and algorithms. The simulator is a work in progress that will include the visualization of different algorithms.',

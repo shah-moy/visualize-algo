@@ -62,9 +62,7 @@ const SortInfo = ({
             </tbody>
           </table>
         </aside>
-        <aside className="SortInfo__AsideP">
-        <code>{ps}</code>
-        </aside>
+        
 
 
 

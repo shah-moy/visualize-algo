@@ -178,6 +178,7 @@ l6:[],
   render() {
     return (
       <div className="SortVisualizer">
+        <div className='tableC'>
         <div className="SVtable">
         <SortChart1
           numbers={this.state.array}
@@ -190,7 +191,7 @@ l6:[],
           tracestep={this.state.tracestep}
           trace={this.state.trace}
         />
-      
+      </div>
         </div>
         <div>
         <SortChart

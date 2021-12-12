@@ -6,7 +6,7 @@ const SignIn = () => {
         <>
         <Container>
             <FormWrap>
-                <Icon to="/">Algorithm Visualization</Icon>
+                <Icon to="/">VisualizeAlgo</Icon>
                 <FormContent>
                     <Form action="#">
                         <FormH1>Sign in to your account</FormH1>

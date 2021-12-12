@@ -16,3 +16,9 @@
   overflow: clip;
   margin: 0.5rem;
 }
+.tableC{
+  align-items: center;
+  align-content: center;
+  align-tracks: center;
+  align-self:center;
+}

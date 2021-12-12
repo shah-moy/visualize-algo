@@ -23,7 +23,7 @@
     height: 38vh;
     padding: 1rem;
   
-    background-color: #E4F2F7;
+    background-color:lightseagreen;
   
     display: flex;
     flex-direction: row;
@@ -34,12 +34,11 @@
      min-width: 420px; 
      max-width: 500px; 
     min-height: 218px;
-    height: 37.99vh;
+    height: 38vh;
     font-weight: bolder;
     background-color: #F7F7F7;
-    padding-left: 55px;
-   font-size: 3.3mm;
-   padding-top: 10px;
+    padding: 1rem;
+   font-size: 3.5mm;
   }
 }
     
@@ -111,6 +110,8 @@
     background-color: #E4F2F7;
   
   }
+
+ 
   
   
   

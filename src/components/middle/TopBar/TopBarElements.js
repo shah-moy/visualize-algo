@@ -5,7 +5,7 @@ export const Icon = styled(Link)`
 margin-left: 32px;
 
 text-decoration: none;
-color: #101010;
+color: lightseagreen;
 font-weight: 600;
 font-size: 25px;
 

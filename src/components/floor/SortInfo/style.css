@@ -47,8 +47,9 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 555px) {
+@media (min-width: 992px) {
   .SortInfo__Aside {
+  
     padding-left: 0rem;
   }
 }
@@ -60,9 +61,9 @@
 
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 555px) {
+@media (min-width: 1200px) {
   .SortInfo__Article {
-    width: 35ch;
+    width: 85ch;
     padding-right: 1ch;
   }
 
