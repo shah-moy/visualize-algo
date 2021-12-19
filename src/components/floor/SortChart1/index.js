@@ -61,6 +61,7 @@ const SortChart1 = ({
   t2=BubbleSort
 }) => {
   return (
+    <div className='srbgc'>
     <div className="SortChart1">
       {getListOfBars(
         numbers,
@@ -74,6 +75,7 @@ const SortChart1 = ({
         tracestep,
         t2
       )}
+    </div>
     </div>
   );
 };

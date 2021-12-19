@@ -41,7 +41,7 @@ trk=!trk}
 */
   return (
     <div> <div  className={classNames}>
-     <table Style="border:1px solid black; padding-left:6px; padding-right:6px; padding-top:3px; padding-bottom:3px;">
+     <table >
       <tr><span>{val}
       </span></tr></table> 
     </div>

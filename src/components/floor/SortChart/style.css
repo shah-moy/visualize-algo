@@ -1,5 +1,5 @@
-
 @media (min-width: 1200px) {
+   
 
   .SortChart {
     /* min-width: 320px; */
@@ -16,6 +16,9 @@
     align-items: flex-end;
     transition: 0.75s ease-in-out;
   }
+}
+
+  
   .SortChartL {
     min-width: 70%; 
     max-width: 100%;
@@ -31,16 +34,19 @@
     transition: 0.75s ease-in-out;
   }
   .SortChartR {
-     min-width: 420px; 
-     max-width: 500px; 
+    min-width: 30%; 
+    max-width: 100%;
+    
+     min-width: 218px; 
+  
     min-height: 218px;
     height: 38vh;
-    font-weight: bolder;
+    font-weight: 500;
     background-color: #F7F7F7;
-    padding: 1rem;
+    padding-left: 1rem;
    font-size: 3.2mm;
   }
-}
+  
     
   .Bar__Text {
     margin: 0 auto 0.25rem;
@@ -75,7 +81,7 @@
   }
   
   .P__Text {
-    margin: 0 auto 0.2rem;
+    margin: 0 auto 0rem;
   }
   /* primary sorter */
   .P_sorted {

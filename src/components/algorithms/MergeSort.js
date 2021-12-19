@@ -95,14 +95,14 @@ export const MergeSortP= {
     l0:(<span Style="margin: 0px"><line> split each element into partitions of size 1</line></span>),
   
     l1: (<span Style="margin: 15px"><line>recursively merge adjacent partitions </line></span>),
-    l2:(<span Style="margin: 25px">
+    l2:(<span Style="margin: 30px">
     <line >  for i = leftelementId to rightelementId <br/></line></span>
     ),
     l3:(<span Style="margin: 35px"><line >
     {"if leftPartHeadValue <= rightPartHeadValue"}
   </line></span>
   ),
-    l4:(<span Style="margin: 45px"><line alignmentBaseline>
+    l4:(<span Style="margin: 50px"><line alignmentBaseline>
        copy leftElementValue  </line></span>),
       l5:(<span Style="margin: 35px"><line>else: copy rightElementValue</line></span>),
     l10:(<span Style="margin: 0px"><line>copy elements back to original array</line></span>),

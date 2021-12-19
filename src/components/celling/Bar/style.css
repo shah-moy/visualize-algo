@@ -1,3 +1,4 @@
+
 .Bar {
     background-color: #ffffff;
     color: #101010;
@@ -5,14 +6,27 @@
     flex-direction: column reverse;
     align-items: flex-end;
     transition: 125ms ease-in-out;
-    font-size: 20px;
+    font-size: 7px;
     border-color: black;
   }
-  
+  @media (min-width: 600px) {
+    .Bar {
+      background-color: #ffffff;
+      color: #101010;
+      display: flex;
+      flex-direction: column reverse;
+      align-items: flex-end;
+      transition: 125ms ease-in-out;
+      font-size: 20px;
+      border-color: black;
+    }
   .Bar__Text {
     margin: 0 auto 0.25rem;
   }
-  
+}
+.Bar__Text {
+  margin: 0 auto 0.25rem;
+}
   .Bar_sorted {
     background-color: var(--primary);
   }

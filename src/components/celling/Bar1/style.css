@@ -1,3 +1,10 @@
+
+
+   
+table{
+  border:1px solid black;
+
+}
 .Bar1 {
   background-color: var(--white);
   color: #101010;
@@ -5,8 +12,25 @@
   flex-direction: column reverse;
   align-items: flex-end;
   transition: 125ms ease-in-out;
-  font-size: 20px;
+  font-size: 10px;
 }
+
+
+@media (min-width: 1200px) {
+
+
+  .Bar1 {
+    background-color: var(--white);
+    color: #101010;
+    display: flex;
+   
+    align-items: flex-end;
+    transition: 125ms ease-in-out;
+    font-size: 20px;
+  }
+
+}
+
 
 .Bar__Text {
   margin: 1 auto 0.25rem;
